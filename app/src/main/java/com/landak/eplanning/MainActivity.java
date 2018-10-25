@@ -15,11 +15,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        btnTpUrusan =findViewById(R.id.btnTpUrusan);
         btnUrusan   =findViewById(R.id.btnUrusan);
         btnBdUrusan =findViewById(R.id.btnBdUrusan);
 
-        btnTpUrusan.setOnClickListener(new View.OnClickListener() {
+        btnUrusan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // Memunculkan pesan berupa text dialog saat tombol "Klik Disini" diklik.
