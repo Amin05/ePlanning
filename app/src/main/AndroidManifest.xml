@@ -30,7 +30,12 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name=".ListProgramActivity"></activity>
+        <activity android:name=".ListProgramActivity" />
+        <activity android:name=".DetailProgramActivity"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

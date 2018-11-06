@@ -26,7 +26,7 @@ import java.util.Map;
 
 public class Service_Connector {
     public static MyConfig myConfig=new MyConfig();
-    public static String url=myConfig.main_url+"service/";
+    public static String url=myConfig.main_url;
 
     final static int timeout=5000;
     private Context ctx;
@@ -35,9 +35,6 @@ public class Service_Connector {
 
 
     public Service_Connector(){
-
-
-
 
     }
     public interface VolleyResponseCookieListener_v2{
